@@ -54,9 +54,10 @@ img:hover {
 @media screen and (min-width: 100px){
   .nav_wrap {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 4rem;
+    height: 6rem;
     position: fixed;
     z-index: 9999;
     top: 0;
@@ -88,6 +89,7 @@ img:hover {
     padding: 0 10px;
     height: 35px;
     border-radius: 30px;
+    margin-right: 10px;
   }
   .search_wrap i {
     color: #989898;
@@ -109,15 +111,24 @@ img:hover {
     align-items: center;
     height: 60vh;
   }
+  .title {
+    display: block;
+    font-size: 20px;
+  }
+  .right_menu {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 /* MINI */
 @media screen and (min-width: 360px){
   .nav_wrap {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 4rem;
+    height: 6rem;
     position: fixed;
     z-index: 9999;
     top: 0;
@@ -149,6 +160,7 @@ img:hover {
     padding: 0 10px;
     height: 35px;
     border-radius: 30px;
+    margin-right: 10px;
   }
   .search_wrap i {
     color: #989898;
@@ -170,15 +182,24 @@ img:hover {
     align-items: center;
     height: 60vh;
   }
+  .title {
+    display: block;
+    font-size: 20px;
+  }
+  .right_menu {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 /* SEMI MINI */
 @media screen and (min-width: 380px){
   .nav_wrap {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 4rem;
+    height: 6rem;
     position: fixed;
     z-index: 9999;
     top: 0;
@@ -210,6 +231,7 @@ img:hover {
     padding: 0 10px;
     height: 35px;
     border-radius: 30px;
+    margin-right: 10px;
   }
   .search_wrap i {
     color: #989898;
@@ -231,15 +253,24 @@ img:hover {
     align-items: center;
     height: 60vh;
   }
+  .right_menu {
+    display: flex;
+    flex-direction: row;
+  }
+  .title {
+    display: block;
+    font-size: 20px;
+  }
 }
 
 /* MOBILE */
 @media screen and (min-width: 400px){
   .nav_wrap {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 4rem;
+    height: 6rem;
     position: fixed;
     z-index: 9999;
     top: 0;
@@ -271,6 +302,7 @@ img:hover {
     padding: 0 10px;
     height: 35px;
     border-radius: 30px;
+    margin-right: 10px;
   }
   .search_wrap i {
     color: #989898;
@@ -292,13 +324,22 @@ img:hover {
     align-items: center;
     height: 60vh;
   }
+  .right_menu {
+    display: flex;
+    flex-direction: row;
+  }
+  .title {
+    display: block;
+    font-size: 20px;
+  }
 }
 
 /* TABLETS */
 @media screen and (min-width: 600px){
   .nav_wrap {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     height: 4rem;
     position: fixed;
@@ -308,6 +349,7 @@ img:hover {
     left: 0;
     width: 100%;
     padding: 0 1rem;
+    padding-left: 3rem;
     box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
   }
   .img_wrap {
@@ -333,6 +375,7 @@ img:hover {
     width: 15rem;
     height: 35px;
     border-radius: 30px;
+    margin-right: 0;
   }
   .search_wrap i {
     color: #989898;
@@ -351,13 +394,22 @@ img:hover {
     align-items: center;
     height: 60vh;
   }
+  .right_menu {
+    display: flex;
+    flex-direction: row;
+  }
+  .title {
+    display: block;
+    font-size: 25px;
+  }
 }
 
 /* DESKTOP */
 @media screen and (min-width: 1025px){
   .nav_wrap {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     height: 4rem;
     position: fixed;
@@ -367,6 +419,7 @@ img:hover {
     left: 0;
     width: 100%;
     padding: 0 1rem;
+    padding-left: 3rem;
     box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
   }
   .img_wrap {
@@ -392,6 +445,7 @@ img:hover {
     width: 15rem;
     height: 35px;
     border-radius: 30px;
+    margin-right: 0;
   }
   .search_wrap i {
     color: #989898;
@@ -412,5 +466,13 @@ img:hover {
     justify-content: center;
     align-items: center;
     height: 60vh;
+  }
+  .right_menu {
+    display: flex;
+    flex-direction: row;
+  }
+  .title {
+    display: block;
+    font-size: 25px;
   }
 }
