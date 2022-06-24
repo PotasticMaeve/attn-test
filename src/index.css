@@ -7,7 +7,7 @@
   font-family: "Poppins", sans-serif;
 }
 img {
-  animation: fadeInAnimation ease 3s;
+  animation: fadeInAnimation ease 2.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   border-radius: 10px;

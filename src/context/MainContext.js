@@ -9,40 +9,38 @@ export const MainProvider = ({ children }) => {
     const [searchTerm, setSearchTerm] = useState("")
     const [searchresult, setSearchResult] = useState([])
     const [imgIndex, setImgIndex] = useState(13)
-    const [isLoading, setIsLoading] = useState(false)
 
     const getUserContent = () => {
-        setIsLoading(true)
         const baseURL = "http://localhost:5000/data"
         axios.get(baseURL, {
             params: {
                 _limit: imgIndex
             }
         })
-        .then(res => {
-            if (res.status === 200) {
-                setUserContent(res.data);
-            }
-            setIsLoading(false)
-        })
-        .catch(err => {
-            console.log(err);
-        })
+            .then(res => {
+                if (res.status === 200) {
+                    // const sorted = res.data.sort(function(a, b) {
+                    //     return a.name.localeCompare(b.name.toLowerCase());
+                    // });
+                    setUserContent(res.data);
+                }
+            })
+            .catch(err => {
+                console.log(err);
+            })
     }
 
     const getUserContentAll = () => {
-        setIsLoading(true)
         const baseURL = "http://localhost:5000/data"
         axios.get(baseURL)
-        .then(res => {
-            if (res.status === 200) {
-                setUserContentAll(res.data);
-            }
-            setIsLoading(false)
-        })
-        .catch(err => {
-            console.log(err);
-        })
+            .then(res => {
+                if (res.status === 200) {
+                    setUserContentAll(res.data);
+                }
+            })
+            .catch(err => {
+                console.log(err);
+            })
     }
 
     return (
@@ -52,7 +50,6 @@ export const MainProvider = ({ children }) => {
             search_term: [searchTerm, setSearchTerm],
             search_result: [searchresult, setSearchResult],
             img_index: [imgIndex, setImgIndex],
-            is_loading: [isLoading, setIsLoading],
 
             getUserContent: getUserContent,
             getUserContentAll: getUserContentAll

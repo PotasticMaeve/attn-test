@@ -1,9 +1,22 @@
-# ATTN Test
+# ATTN Media App
 Masonry Layout Website as a Reqruiting Test 
 
-## What's inside:
-[x] a masonry layout
-[x] search feature
-[x] lazy load feature
-[x] responsive display
-[ ] test case
+## What's inside
+- [x] a masonry layout with alphabetically sorted name
+- [x] search feature by name
+- [x] lazy load feature
+- [x] responsive design
+- [ ] test case
+
+## Getting started
+```
+$ git clone git@github.com:PotasticMaeve/media-app.git
+$ cd media-app
+$ yarn install
+$ yarn start
+```
+
+## How to build
+```
+$ yarn build
+```
