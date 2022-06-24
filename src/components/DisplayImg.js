@@ -18,7 +18,7 @@ const DisplayImg = () => {
     })
 
     return (
-        <div className="img_wrap">
+        <div className="img_wrap" data-testid="img_wrap">
             {userContent.length > 0 ?
                 searchTerm !== "" ?
                     searchResult.length > 0 ?

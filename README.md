@@ -1,4 +1,4 @@
-# ATTN Media App
+# Media App
 Masonry Layout Website as a Reqruiting Test 
 
 ## What's inside
@@ -6,7 +6,7 @@ Masonry Layout Website as a Reqruiting Test
 - [x] search feature by name
 - [x] lazy load feature
 - [x] responsive design
-- [ ] test case
+- [x] test case
 
 ## Getting started
 ```

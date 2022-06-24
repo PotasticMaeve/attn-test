@@ -15,7 +15,6 @@ const Searchbar = () => {
                 if(el.name.toLowerCase().includes(search_key.toLowerCase())){
                     return el
                 }
-                // return Object.values(el).join("").toLowerCase().includes(search_key.toLowerCase())
             })
             setSearchResult(data);
         } else {
@@ -26,7 +25,7 @@ const Searchbar = () => {
     return (
         <div className="search_wrap">
             <i className="ri-search-line"></i>
-            <input name="search" value={searchTerm} onChange={(e) => handleChangeSearch(e.target.value)} />
+            <input data-testid="input" name="search" value={searchTerm} onChange={(e) => handleChangeSearch(e.target.value)} />
         </div>
     )
 }

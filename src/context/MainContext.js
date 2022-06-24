@@ -19,10 +19,14 @@ export const MainProvider = ({ children }) => {
         })
             .then(res => {
                 if (res.status === 200) {
-                    // const sorted = res.data.sort(function(a, b) {
-                    //     return a.name.localeCompare(b.name.toLowerCase());
-                    // });
-                    setUserContent(res.data);
+                    if(imgIndex === 13){
+                        const sorted = res.data.sort(function(a, b) {
+                            return a.name.localeCompare(b.name.toLowerCase());
+                        });
+                        setUserContent(sorted);
+                    }else{
+                        setUserContent(res.data);
+                    }
                 }
             })
             .catch(err => {
