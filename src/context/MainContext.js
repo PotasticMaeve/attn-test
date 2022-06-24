@@ -8,10 +8,10 @@ export const MainProvider = ({ children }) => {
     const [userContentAll, setUserContentAll] = useState([])
     const [searchTerm, setSearchTerm] = useState("")
     const [searchresult, setSearchResult] = useState([])
-    const [imgIndex, setImgIndex] = useState(13)
+    const [imgIndex, setImgIndex] = useState(20)
+    const [baseURL] = useState("http://json.claudiafelicia.com/data")
 
     const getUserContent = () => {
-        const baseURL = "http://localhost:5000/data"
         axios.get(baseURL, {
             params: {
                 _limit: imgIndex
@@ -35,7 +35,6 @@ export const MainProvider = ({ children }) => {
     }
 
     const getUserContentAll = () => {
-        const baseURL = "http://localhost:5000/data"
         axios.get(baseURL)
             .then(res => {
                 if (res.status === 200) {
