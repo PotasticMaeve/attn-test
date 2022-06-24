@@ -73,7 +73,7 @@ img:hover {
     width: 100%;
     padding-left: 0;
     padding: 0 4%;
-    padding-top: 5rem;
+    padding-top: 7rem;
   }
   .menu_list {
     width: 8rem;
@@ -113,7 +113,7 @@ img:hover {
   }
   .title {
     display: block;
-    font-size: 20px;
+    font-size: 18px;
   }
   .right_menu {
     display: flex;
@@ -145,6 +145,7 @@ img:hover {
     grid-template-rows: masonry;
     gap: 1em;
     padding-bottom: 15px;
+    padding-top: 7rem;
   }
   .menu_list {
     width: 8rem;
@@ -184,7 +185,7 @@ img:hover {
   }
   .title {
     display: block;
-    font-size: 20px;
+    font-size: 18px;
   }
   .right_menu {
     display: flex;
@@ -216,6 +217,7 @@ img:hover {
     grid-template-rows: masonry;
     gap: 1em;
     padding-bottom: 15px;
+    padding-top: 7rem;
   }
   .menu_list {
     width: 8rem;
@@ -287,6 +289,7 @@ img:hover {
     grid-template-rows: masonry;
     gap: 1em;
     padding-bottom: 15px;
+    padding-top: 7rem;
   }
   .menu_list {
     width: 8rem;
@@ -359,6 +362,7 @@ img:hover {
     grid-template-rows: masonry;
     gap: 1em;
     padding-bottom: 15px;
+    padding-top: 5rem;
   }
   .menu_list {
     padding: 0 20px;
@@ -429,6 +433,7 @@ img:hover {
     grid-template-rows: masonry;
     gap: 1em;
     padding-bottom: 15px;
+    padding-top: 5rem;
   }
   .menu_list {
     padding: 0 20px;
