@@ -12,7 +12,10 @@ const Searchbar = () => {
         setSearchTerm(search_key)
         if (search_key !== "") {
             const data = userContentAll.filter((el) => {                
-                return Object.values(el).join("").toLowerCase().includes(search_key.toLowerCase())
+                if(el.name.toLowerCase().includes(search_key.toLowerCase())){
+                    return el
+                }
+                // return Object.values(el).join("").toLowerCase().includes(search_key.toLowerCase())
             })
             setSearchResult(data);
         } else {

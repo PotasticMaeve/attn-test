@@ -98,6 +98,17 @@ img:hover {
   input {
     width: 120px;
   }
+  .animation_lottie {
+    height: 200px;
+    width: 200px;
+  }
+  .nodata_wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+  }
 }
 
 /* MINI */
@@ -147,6 +158,17 @@ img:hover {
   }
   input {
     width: 155px;
+  }
+  .animation_lottie {
+    height: 200px;
+    width: 200px;
+  }
+  .nodata_wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
   }
 }
 
@@ -198,6 +220,17 @@ img:hover {
   input {
     width: 170px;
   }
+  .animation_lottie {
+    height: 200px;
+    width: 200px;
+  }
+  .nodata_wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+  }
 }
 
 /* MOBILE */
@@ -248,6 +281,17 @@ img:hover {
   input {
     width: 200px;
   }
+  .animation_lottie {
+    height: 200px;
+    width: 200px;
+  }
+  .nodata_wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+  }
 }
 
 /* TABLETS */
@@ -295,6 +339,17 @@ img:hover {
   }
   .menu_list i {
     margin: 0 10px;
+  }
+  .animation_lottie {
+    height: 250px;
+    width: 250px;
+  }
+  .nodata_wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
   }
 }
 
@@ -346,5 +401,16 @@ img:hover {
   }
   input {
     width: 200px;
+  }
+  .animation_lottie {
+    height: 250px;
+    width: 250px;
+  }
+  .nodata_wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
   }
 }
