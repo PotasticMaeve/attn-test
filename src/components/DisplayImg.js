@@ -12,7 +12,7 @@ const DisplayImg = () => {
     const commonDisplay = userContent.map((el, i) => {
         return <img key={i} src={el.src} alt={`user-content-${i}`} />
     })
-    
+
     const searchDisplay = searchResult.map((el, i) => {
         return <img key={i} src={el.src} alt={`user-content-${i}`} />
     })
