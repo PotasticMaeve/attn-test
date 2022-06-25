@@ -1,5 +1,5 @@
 # Media App
-Masonry Layout Website as a Reqruiting Test 
+Masonry Layout Website
 
 ## Demo App
 http://media.claudiafelicia.com/  
