@@ -2,8 +2,7 @@ version: "3.5"
 services: 
   media_app:
     build: .
-    image: claudiadev/media-app:v1.0
+    image: claudiadev/media-app:v1.1
     container_name: media_app
     ports: 
-      - "9000:3000"
-    command: serve -p 3000 -s .
+      - "9000:80"
